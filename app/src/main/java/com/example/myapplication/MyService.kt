@@ -9,8 +9,7 @@ class MyService : Service() {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
 
-        val intent: Intent = Intent()
-        intent.action = ACTION
+        val intent: Intent = Intent().setAction(ACTION)
         intent.putExtra(ADDITIONAL_RESULT, sumbeetween2digits())
         sendBroadcast(intent)
         return super.onStartCommand(intent, flags, startId)
