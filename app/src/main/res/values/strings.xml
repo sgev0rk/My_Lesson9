@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="calculate">Calculate</string>
+    <string name="sum_of_all_numbers_in_the_range_between_two_digits">Sum of all numbers in the range between two digits</string>
+</resources>
